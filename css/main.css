@@ -1,3 +1,35 @@
+#border {
+  padding: 10px 0 10px 10px;
+  width: 90%;
+  border: 1px solid black;
+}
+button {
+  border: 0;
+  width: 120px;
+  height: 30px;
+  outline: 0;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: lightblue;
+}
+.button-active {
+  background-color: lightblue;
+}
+
+p {
+  color: rgb(127, 127, 127);
+}
+
+#swatch {
+  width: 120px;
+  height: 100px;
+  margin-top: 18px;
+  margin-left: 350px;
+  background-image: none;
+  padding: 5px;
+}
 #red,
 #green,
 #blue {
@@ -5,13 +37,6 @@
   clear: left;
   width: 300px;
   margin: 15px;
-}
-#swatch {
-  width: 120px;
-  height: 100px;
-  margin-top: 18px;
-  margin-left: 350px;
-  background-image: none;
 }
 #red .ui-slider-range {
   background: #ef2929;
